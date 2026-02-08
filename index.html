@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>SubKit - Subscription Manager | Track Your Subscriptions</title>
+  <meta name="description" content="SubKit helps you track and manage all your subscriptions in one place. Never miss a renewal or overpay again. Available on iOS and Android.">
+  <meta name="keywords" content="subscription manager, subscription tracker, manage subscriptions, recurring payments, billing tracker, SubKit app">
+  <meta name="author" content="SubKit">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourdomain.github.io/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.github.io/">
+  <meta property="og:title" content="SubKit - Subscription Manager">
+  <meta property="og:description" content="Track and manage all your subscriptions in one place. Never miss a renewal or overpay again.">
+  <meta property="og:image" content="https://yourdomain.github.io/assets/logo.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="SubKit">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://yourdomain.github.io/">
+  <meta name="twitter:title" content="SubKit - Subscription Manager">
+  <meta name="twitter:description" content="Track and manage all your subscriptions in one place. Never miss a renewal or overpay again.">
+  <meta name="twitter:image" content="https://yourdomain.github.io/assets/logo.png">
+  
+  <!-- Geo Tags -->
+  <meta name="geo.region" content="IN">
+  <meta name="geo.placename" content="India">
+  
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Structured Data for GEO (Generative Engine Optimization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SubKit",
+    "alternateName": "SubKit - Subscription Manager",
+    "description": "SubKit helps you track and manage all your subscriptions in one place. Never miss a renewal or overpay again. Store data locally, backup to Google Drive, and get renewal reminders.",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "iOS, Android",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Free with optional premium features"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "SubKit",
+      "email": "apexprimetechnology@gmail.com"
+    },
+    "featureList": [
+      "Track all subscriptions in one place",
+      "Local data storage for privacy",
+      "Google Drive backup",
+      "Renewal reminders and notifications",
+      "Premium features available"
+    ],
+    "screenshot": "https://yourdomain.github.io/assets/logo.png",
+    "softwareVersion": "1.0",
+    "datePublished": "2026-01-14",
+    "inLanguage": "en"
+  }
+  </script>
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animation"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Main Content -->
+  <main class="landing-container">
+    <div class="logo-wrapper" id="logoWrapper" onclick="toggleNavLinks()">
+      <div class="logo-container">
+        <div class="logo-glow"></div>
+        <img src="assets/logo.png" alt="SubKit Logo" class="logo">
+        <h1 class="app-name">SubKit</h1>
+        <p class="tagline">Subscription Manager</p>
+      </div>
+    </div>
+    
+    <p class="click-hint" id="clickHint">Click to explore</p>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="subkit-privacy.html" class="nav-link">
+        <span>Privacy Policy</span>
+        <span class="arrow">→</span>
+      </a>
+      <a href="subkit-terms.html" class="nav-link">
+        <span>Terms & Conditions</span>
+        <span class="arrow">→</span>
+      </a>
+    </nav>
+  </main>
+
+  <script>
+    let isNavVisible = false;
+
+    function toggleNavLinks() {
+      const navLinks = document.getElementById('navLinks');
+      const clickHint = document.getElementById('clickHint');
+      
+      isNavVisible = !isNavVisible;
+      
+      if (isNavVisible) {
+        navLinks.classList.add('visible');
+        clickHint.style.opacity = '0';
+      } else {
+        navLinks.classList.remove('visible');
+        clickHint.style.opacity = '';
+      }
+    }
+  </script>
+</body>
+</html>
