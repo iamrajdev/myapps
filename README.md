@@ -4,7 +4,7 @@ Modern, animated dark mode website for SubKit app featuring Privacy Policy and T
 
 ## 🌐 Live Site
 
-**[View Website](https://imrajdev.github.io/myapps/)**
+**[View Website](https://iamrajdev.github.io/myapps/)**
 
 ## ✨ Features
 
