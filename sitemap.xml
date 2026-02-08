@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yourdomain.github.io/</loc>
+    <loc>https://imrajdev.github.io/myapps/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/subkit-privacy.html</loc>
+    <loc>https://imrajdev.github.io/myapps/subkit-privacy.html</loc>
     <lastmod>2026-01-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/subkit-terms.html</loc>
+    <loc>https://imrajdev.github.io/myapps/subkit-terms.html</loc>
     <lastmod>2026-01-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
